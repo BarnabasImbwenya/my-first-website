@@ -76,8 +76,7 @@ p {
 
 }
 
-.bounce-button {
-  @keyframes bounce {
+@keyframes bounce {
   0%, 100% {
     transform: translateY(0);
   }
@@ -88,6 +87,4 @@ p {
 
 .bounce-button {
   animation: bounce 1s infinite;
-}
-
 }
