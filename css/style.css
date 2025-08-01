@@ -1,37 +1,63 @@
 
-body {
-  background-color: #f5f5f5;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.head {
   text-align: center;
+  font-size: 40px;
+  color: #2980b9;
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: #105cb6;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+body {
+  background-color: rgb(239, 233, 219);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
   padding: 5%;
-  color: #333;
-  max-width: 100%;
+  color: black;
 }
 
 h1 {
-  color: #2c3e50;
+  color: black;
+  text-align: center;
   font-size: 36px;
 }
 
 p {
   color: #34495e;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
+h2 {
+  text-align: center;
+  text-underline-position: below;
+  text-decoration: underline;
+  margin-top: 5%;
+}
+
 img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
+
+
 
 a {
   display: inline-block;
-  text-decoration: none;
+  text-decoration:none;
   color: white;
-  background-color: #3498db;
+  background-color: green;
   padding: 10px 20px;
   border-radius: 8px;
   margin-top: 20px;
@@ -43,9 +69,11 @@ a:hover {
 }
 
 nav {
-  background-color: #2c3e50;
+  background-color: #a4cbf0;
   padding: 15px 0;
   margin-bottom: 30px;
+  display: flex;
+  justify-content:center;
 }
 
 nav a {
@@ -61,7 +89,7 @@ nav a:hover {
   color: #f39c12;
 }
 
-@media (max-media: 600px) {
+@media (max-media: 768px) {
 nav a {
   display: block;
   margin: 10px 0;
@@ -90,7 +118,7 @@ p {
 }
 
 form {
-  max-width: 500px;
+  max-width: 50%;
   margin: 0 auto;
   padding: 1rem;
   border: 1px solid #ccc;
@@ -132,4 +160,5 @@ button[type="submit"]:hover {
 
 .home {
   background-color: #f39c12;
+  
 }
