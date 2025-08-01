@@ -162,3 +162,7 @@ button[type="submit"]:hover {
   background-color: #f39c12;
   
 }
+
+.center {
+  text-align: center;
+}
